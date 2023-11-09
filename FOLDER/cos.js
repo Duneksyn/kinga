@@ -1,0 +1,1 @@
+alert("Witaj oto komunikat wyświetlony za pomocą js");
