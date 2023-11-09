@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+</head>
+<body>
+    <h2 style="background-color: rgb(164, 205, 244); text-align: center"> Welcome to my page</h2>
+    <h4 style="background-color: rgb(213, 237, 252); text-align: center"> <i>Here I'm going to ask you some questions about your personal info and your phone specyfication</i></h4>
+
+    <fieldset>
+        <legend>Personal info:</legend>
+        <p>
+            <label for="username"> Name & Surname</label>
+            <input type="text" id="username" name="username" class="username"><br>
+        </p>
+        <p>
+            <label for="email"> Your e-mail:</label>
+            <input type="text" id="email" name="email" class="email"> <br>
+        </p>
+        <p>
+            <label>Gender:</label>
+            <input type="radio" name="gender" id="gender_female" value="female">
+            <label for="gender_female">Female</label>
+            <input type="radio" name="gender" id="gender_male" value="male">
+            <label for="gender_male">Male</label>
+        </p>
+        <p>
+            <label for="date"> Your birth date:</label>
+            <input type="date" name="bdate" id="bdate" class="bdate">
+        </p>
+        <p>
+            <label for="tel">Your phone number:</label>
+            <input type="tel" name="tel" id="tell" class="tell" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"><br>
+            <small><i>Format: 090-537-583-39-31</i></small>
+        </p>
+        <p>
+            <label>Your education status:</label>
+            <select name="education" id="education">
+                <option>select your current education level here</option>
+                <option>primary school</option>
+                <option>middle school</option>
+                <option>high school</option>
+                <option>university</option>
+                <option>after education</option>
+        </p>
+    </fieldset><br>
+
+    <fieldset>
+        <legend> Your mobile phone info</legend>
+        <p>
+            <label>Select your phone brand</label>
+            <select name="phone" id="phone">
+                 <option>Apple</option>
+                 <option>Samsung</option>
+                 <option>Huawei</option>
+        </p>
+
+    </fieldset>
+
+
+
+
+    
+</body>
+</html>
